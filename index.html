@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/Style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script SRC="JS/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <section class="sec1">
+            <h1 class="text-muted mt-5">Bookmarker</h1>
+
+        </section>
+        <hr />
+        <section class="sec2 text-center">
+
+            <div class=" w-100 mt-5 pt-1 pb-5 bg-dark">
+                <h3 class=" text-light m-5">Bookmark your favorite sites</h3>
+
+                <div class=" text-light">
+                    <label class="mb-3" for="Name" style="font-size: 20px;">Site Name</label><br />
+                    <input class="Name form-input w-75" type="text" id="Name" placeholder="Bookmark Name" required />
+                </div>
+
+                <div class=" text-light mb-5">
+                    <label class="mb-3 mt-5" for="URL" style="font-size: 20px;">Site URL</label><br />
+                    <input class="URL form-input w-75" type="text" id="URL" placeholder="Websitr URL" required />
+                </div>
+
+                <input type="button" class=" btn btn-outline-light Ps-4 pe-4 pt-2 pb-2" value="Add" onclick="add()" />
+
+            </div>
+            <div class=" w-100 mt-3" id="my-container">
+
+
+            </div>
+        </section>
+        <hr />
+        <section class="sec3">
+            <h6 class="text-muted">© 2019 Bookmarker Inc.</h6>
+        </section>
+    </div>
+
+    <script src="JS/java.js"></script>
+</body>
+
+</html>
